@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:read_era/screens/home/home_screen.dart';
 
 class ConfiguracionesScreen extends StatelessWidget {
   static const String name = 'configuracionesScreen';
@@ -7,6 +8,10 @@ class ConfiguracionesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    // TODO: MANDAR A CONFIG
+    return const Scaffold(
+      appBar: MyAppBar(nombre: 'Configuracion'),
+      body: Placeholder(),
+    );
   }
 }

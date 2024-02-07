@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:read_era/screens/home/home_screen.dart';
 
 class CarpetasScreen extends StatelessWidget {
   static const String name = 'carpetasScreen';
@@ -7,6 +8,9 @@ class CarpetasScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold(
+      appBar: MyAppBar(nombre: 'Carpetas'),
+      body: Placeholder(),
+    );
   }
 }

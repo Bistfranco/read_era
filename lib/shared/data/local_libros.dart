@@ -23,10 +23,4 @@ List<Map<String, dynamic>> librosPosts = [
     'libroUrlImage': 'assets/img/4.png',
     'tipoArchivo': 'EPUB',
   },
-  {
-    'name': 'La voz de las espadas',
-    'autor': 'Joe Abercrombie',
-    'libroUrlImage': 'assets/img/4.png',
-    'tipoArchivo': 'EPUB',
-  },
 ];

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:read_era/providers/home_provider.dart';
 import 'package:read_era/screens/screen_barril.dart';
+import 'package:read_era/widgets/autores_view.dart';
 
 class AutoresScrenn extends StatelessWidget {
   static const String name = 'autoresScreen';
@@ -8,18 +11,10 @@ class AutoresScrenn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      appBar: MyAppBar(nombre: 'Autores'),
-      body: _CardView(),
+    final homeProvider = Provider.of<HomeProvider>(context);
+    return Scaffold(
+      appBar: const MyAppBar(nombre: 'Autores'),
+      body: AutorView(libros: homeProvider.libros),
     );
-  }
-}
-
-class _CardView extends StatelessWidget {
-  const _CardView();
-
-  @override
-  Widget build(BuildContext context) {
-    return Placeholder();
   }
 }
