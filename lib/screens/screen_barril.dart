@@ -1,0 +1,13 @@
+export 'package:read_era/screens/autores/autores_screen.dart';
+export 'package:read_era/screens/carpetas/carpetas_screen.dart';
+export 'package:read_era/screens/colecciones/colecciones_screen.dart';
+export 'package:read_era/screens/configuraciones/configuraciones_screen.dart';
+export 'package:read_era/screens/descargas/descargas_screen.dart';
+export 'package:read_era/screens/favoritos/favoritos_screen.dart';
+export 'package:read_era/screens/formatos/formatos_screen.dart';
+export 'package:read_era/screens/home/home_screen.dart';
+export 'package:read_era/screens/leidos/leidos_screen.dart';
+export 'package:read_era/screens/libros%20y%20documentos/libros_documentos_screen.dart';
+export 'package:read_era/screens/papelera/papelera_screen.dart';
+export 'package:read_era/screens/para_leer/para_leer.dart';
+export 'package:read_era/screens/series/series_screen.dart';
